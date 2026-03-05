@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, p {
+  margin: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0a98f0b2;
+}
+
+ul li {
+  float: left;
+  border-right:1px solid #1c1c1d;
+}
+
+ul li:last-child {
+  border-right: none;
+}
+
+ul li a {
+  display: block;
+  color: rgb(42, 44, 41);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover:not(.active) {
+  background-color: #0ea1ea;
+}
+
+ul li a.active {
+  background-color: #0e12ee;
+}
+
+
+
+
+
+
+
+
+
+
